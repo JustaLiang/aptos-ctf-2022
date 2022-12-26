@@ -1,0 +1,9 @@
+[package]
+name = 'move-lock'
+version = '1.0.0'
+[dependencies.AptosFramework]
+# local = "../framework/aptos-framework"
+local = "../../aptos-core/aptos-move/framework/aptos-framework"
+
+[addresses]
+ctfmovement = '0xcafe'

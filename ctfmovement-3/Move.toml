@@ -1,0 +1,9 @@
+[package]
+name = 'swap'
+version = '1.0.0'
+[dependencies.AptosFramework]
+# local = "../framework/aptos-framework"
+local = "../../aptos-core/aptos-move/framework/aptos-framework"
+
+[addresses]
+ctfmovement = '0xcebe38dba6031e67d82958d821227aa2b1407f644edd21ca80c6c0949a79e117'

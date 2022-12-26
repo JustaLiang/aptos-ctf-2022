@@ -1,0 +1,9 @@
+[package]
+name = 'simple-swap'
+version = '1.0.0'
+[dependencies.AptosFramework]
+# local = "../framework/aptos-framework"
+local = "../../aptos-core/aptos-move/framework/aptos-framework"
+
+[addresses]
+ctfmovement = '0xe2e03f35f1ce57f7c6ab34fc31db6f3ddbc528ae5152d7aca402a5d102be79f3'

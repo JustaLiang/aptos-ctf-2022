@@ -1,0 +1,13 @@
+[package]
+name = 'checkin'
+version = '1.0.0'
+[dependencies.AptosFramework]
+# local = "../framework/aptos-framework"
+# git = 'https://github.com/aptos-labs/aptos-core.git'
+# rev = 'main'
+# subdir = 'aptos-move/framework/aptos-framework'
+local = "../../aptos-core/aptos-move/framework/aptos-framework"
+
+[addresses]
+ctfmovement = '0xcafe'
+
